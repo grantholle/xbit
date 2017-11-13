@@ -1,6 +1,6 @@
 {
   "name": "xbit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for the xbit.pw api",
   "main": "index.js",
   "keywords": [
