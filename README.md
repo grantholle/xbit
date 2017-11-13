@@ -21,7 +21,7 @@ const xbit = new Xbit()
 
 ### Methods
 
-There are two methods, `search()` and `latest()` that you can use. The `search()` method has two parameters searching.
+There are two methods, `search()` and `recent()` that you can use. The `search()` method takes an object of parameters.
 
 ```javascript
 // Search
@@ -51,7 +51,7 @@ xbit.search({
   .catch(err => console.error(err))
 
 // List recent magnets
-xbit.list()
+xbit.recent()
   .then(response => {
     console.log(response)
     // Output:
