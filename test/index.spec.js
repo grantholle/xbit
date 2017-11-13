@@ -77,7 +77,7 @@ describe('xbit', () => {
       })
   })
 
-  it('should list the recent torrent', done => {
+  it('should list the recent torrents', done => {
     xbit.recent().then(res => {
       testOutputAttributes(res)
       done()
