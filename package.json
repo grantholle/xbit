@@ -1,0 +1,24 @@
+{
+  "name": "rarbg",
+  "version": "1.1.0",
+  "description": "A wrapper for RARBG's api",
+  "main": "index.js",
+  "keywords": [
+    "torrent",
+    "xbit",
+    "torrent search"
+  ],
+  "repository": "https://github.com/grantholle/xbit",
+  "author": "Grant Holle (https://github.com/grantholle)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/standard --env mocha",
+    "test": "./node_modules/.bin/nyc --reporter=text --reporter=lcov ./node_modules/.bin/mocha --timeout 15000 --reporter spec test/**"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "standard": "*"
+  }
+}
