@@ -1,7 +1,7 @@
 {
-  "name": "rarbg",
-  "version": "1.1.0",
-  "description": "A wrapper for RARBG's api",
+  "name": "xbit",
+  "version": "1.0.0",
+  "description": "A wrapper for the xbit.pw api",
   "main": "index.js",
   "keywords": [
     "torrent",
