@@ -21,7 +21,7 @@ const xbit = new Xbit()
 
 ### Methods
 
-There are two methods, `search()` and `recent()` that you can use. The `search()` method takes an object of parameters.
+There are two methods, `search()` and `recent()` that you can use. The `search()` method takes an object of search parameters. So far the api only supports `search` and `limit`.
 
 ```javascript
 // Search
